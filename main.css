@@ -1,0 +1,142 @@
+
+
+body{
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 1100px;
+    height: 1200px;
+    padding-top: 50px;
+}
+
+.cv_pkg{
+    position:absolute;
+    left:30%;
+    top:5%;
+    width: 1000px;
+    height: 1200px;
+    background-color: #eeeeee;
+}
+
+.cv_box{
+    width: 1000px;
+    height: 980px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.068);
+    
+}
+
+.index_box{
+    text-align: center;
+}
+
+.index{
+    display: inline-block;
+    position:relative;
+    text-align: center;
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    cursor:pointer
+}
+
+.title_box{
+    position: relative;
+    left:2.5%;
+    top:7%;
+    background-color: white; 
+    border-radius:30px;
+    margin:0px;
+    padding:0px;
+}
+
+.title{
+    position:relative;
+    top:5%;
+    left:5%;
+    margin:0px;
+    padding:0px;
+    font-size:2rem;
+    font-weight:bold;
+    color:whitesmoke;
+}
+
+.file_input{
+    display: none;
+    position: absolute;
+    left: 30%;
+    top:40%;
+    
+}
+
+.canvas{
+
+    position: relative;
+    top:15%;
+    left: 2.5%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+
+.memo{
+    position:relative;
+    top:14%;
+    left:5%;
+    font-size:2rem;
+    font-weight:bold;
+    color:whitesmoke;
+}
+
+#control_box_place{
+    position:absolute;
+    bottom: 6%;
+    left: 29%;
+}
+
+.control_box{
+    text-align: center;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 0px;
+    width: 80px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.068);
+    border: 2px solid rgba(0,0,0,0.2);
+    color:rgba(0,0,0,0.8);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:12px;
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+.control_color{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.068);
+    border-radius:25px;
+    cursor:pointer
+}
+
+img{
+    display:inline-block;
+    width:50px;
+    height:50px;
+}
+
+img:hover{
+    cursor:pointer
+}
+
